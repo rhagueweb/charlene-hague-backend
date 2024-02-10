@@ -1,3 +1,6 @@
+import { Hero } from '../blocks/Hero';
+import { TwoColumn } from '../blocks/TwoColumn';
+
 export const Pages = {
   slug: 'pages',
   labels: {
@@ -24,7 +27,7 @@ export const Pages = {
       name: 'layout',
       label: 'Layout',
       type: 'blocks',
-      blocks: [],
+      blocks: [Hero, TwoColumn],
     },
   ],
 };
