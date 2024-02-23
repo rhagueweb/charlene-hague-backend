@@ -1,4 +1,5 @@
 import { Hero } from '../blocks/Hero';
+import { SimpleRichText } from '../blocks/SimpleRichText';
 import { TwoColumn } from '../blocks/TwoColumn';
 
 export const Pages = {
@@ -27,7 +28,7 @@ export const Pages = {
       name: 'layout',
       label: 'Layout',
       type: 'blocks',
-      blocks: [Hero, TwoColumn],
+      blocks: [Hero, TwoColumn, SimpleRichText],
     },
   ],
 };
